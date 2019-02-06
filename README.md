@@ -13,4 +13,4 @@ The task of the project is to implement a person re-identifier. Data for this ta
 
 It firstly loads up the image pairs, followed by resizing each image to 128x64, extracting HoG features. In this script, a classier (SVM) is trained to predict the similarity of any pairs of person images (same or different identity) and the accuracy of model is evaluated.
 
-Various approaches have been applied for accomplishing this re-id task including HOG, color histograms and deep features extracted by pre-trained AlexNet.
+Various approaches have been applied to accomplish this re-id task including HOG, color histograms and deep features extracted by pre-trained AlexNet.
