@@ -4,7 +4,7 @@
 
 ## What is it and how does this work?
 Re-ID code written in MATLAB to retrieve two pedestrian images from two different cameras and
-compare them to see whether these two images belong to the same person. A straightforward way to address this problem is to take the
+compare them to see whether these two images belong to the same person or not. A straightforward way to address this problem is to take the
 query image and a putative matching image, and dene a binary classier that reports whether the two
 images are the same person (+1, same), or different people (-1, different) as illustrated in (Figure 1). To
 train a person re-identier system using this approach, there must be many pairs of person images, some
